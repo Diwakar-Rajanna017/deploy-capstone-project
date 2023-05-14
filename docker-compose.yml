@@ -2,8 +2,8 @@ version: '3'
 
 services:
   web:
-    image: my-capstone-app:v0.0.01
-    build: .
+    image: myapp:latest
     ports:
       - "80:80"
+    restart: always
 
